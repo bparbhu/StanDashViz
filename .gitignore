@@ -1,0 +1,80 @@
+# .gitignore
+
+# --- Python-specific ignores ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+*.pyd
+*.so
+*.dll
+
+# C extensions
+*.c
+*.h
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+*.venv
+venv.bak/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# --- Julia-specific ignores ---
+# Precompiled files
+*.ji
+
+# Binary artifacts
+deps/usr/
+
+# Backup files created by the REPL
+*.~*
+
+# Auto-generated documentation
+docs/build/
+docs/site/
+
+# Manifest and Project for local development
+Manifest.toml
+
+# --- General ignores ---
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
